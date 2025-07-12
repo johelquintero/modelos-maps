@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Viento GFS</title>
+    
+    <!-- Estilos de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+    <!-- Estilos para el mapa -->
+    <style>
+        body { margin: 0; padding: 0; }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor del mapa -->
+    <div id="map"></div>
+
+    <!-- Librería Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <!-- Plugin Leaflet-Velocity -->
+    <!-- Nota: Usamos una versión que es compatible con Leaflet 1.7.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-velocity@1.4.3/dist/leaflet-velocity.min.js"></script>
+
+    <!-- Nuestro script de la aplicación -->
+    <script src="app.js"></script>
+
+</body>
+</html>
